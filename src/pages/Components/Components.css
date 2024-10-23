@@ -1,0 +1,51 @@
+.Components-display {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    max-width: 1280px;
+    max-height: 720px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;    
+    background-image: url('../background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .Components {
+    padding: 0.5rem;
+    width: 730px;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Components-title {
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+  }
+  .Components-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 250px 420px;
+    grid-template-rows: 120px 200px;
+    gap: 0.5rem;
+    grid-template-areas:
+      "Components-counter Components-add"
+      "Components-timer Components-add";
+    margin: 0 auto;
+  }
+  .Components-counter {
+    grid-area: Components-counter;
+  }
+  .Components-timer {
+    grid-area: Components-timer;
+  }
+  .Components-add{
+    grid-area: Components-add;
+  }

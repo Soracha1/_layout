@@ -1,0 +1,26 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: kanit;
+  height: 100vh;
+}
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.8rem;
+}

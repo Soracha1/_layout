@@ -1,0 +1,9 @@
+.Login-container{
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    width: 260px;
+    margin: 2rem auto;
+    padding: 10px;
+}
