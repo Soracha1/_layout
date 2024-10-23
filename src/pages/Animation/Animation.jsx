@@ -149,12 +149,12 @@ const Animation = () => {
             onClick={() => {
               const ballConfigs = {
                 Nobg: ["white", "", "100%"],
-                basketball: ["white", "./public/basketball.png", "115%"],
-                football: ["white", "./public/football.png", "105%"],
-                voleyball: ["white", "./public/voleyball.png", "108%"],
-                human: ["white", "./public/human.jpg", "105%"],
-                cartoon: ["white", "./public/cartoon.jfif", "105%"],
-                logo: ["white", "./public/logo.png", "100%"]
+                basketball: ["white", "../../../public/basketball.png", "115%"],
+                football: ["white", "../../../public/football.png", "105%"],
+                voleyball: ["white", "../../../public/voleyball.png", "108%"],
+                human: ["white", "../../../public/human.jpg", "105%"],
+                cartoon: ["white", "../../../public/cartoon.jfif", "105%"],
+                logo: ["white", "../../../public/logo.png", "100%"]
               };
               changeBall(button, ...ballConfigs[button]);
               updateButton(button);
