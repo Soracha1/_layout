@@ -2,6 +2,7 @@
   "name": "layout",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://soracha1.github.io/_layout",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
